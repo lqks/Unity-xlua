@@ -31,7 +31,7 @@ public class XLuaManager : MonoBehaviour
     IEnumerator InitGame()
     {
         //TODO:这里加载资源
-
+        
         yield return false;
         InitLuaEnv();
     }
